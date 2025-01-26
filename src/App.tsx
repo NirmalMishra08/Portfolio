@@ -1,7 +1,10 @@
 
 import About from './Components/About'
+import Contact from './Components/Contact'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
+import Projects from './Components/Projects'
+import Technologies from './Components/Technologies'
 const App = () => {
   return (
     <div className='overflow-x-hidden text-neutral-300 antialiased  selection:bg-cyan-300 selection:text-cyan-900'>
@@ -14,6 +17,9 @@ const App = () => {
       <div className='container mx-auto px-8'> <Navbar />
       <Hero/>
       <About/>
+      <Technologies/>
+      <Projects/>
+      <Contact/>
       </div>
      
     </div>
