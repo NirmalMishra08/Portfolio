@@ -35,40 +35,33 @@ export const EXPERIENCES = [
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
-
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Mingle - Social Media Platform",
+    image: project1, // Replace with your project image URL or import
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A dynamic social media platform featuring posting, commenting, real-time messaging, and secure user authentication.",
+    technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Socket.IO", "Cloudinary"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "BookNook - Book Selling Website",
+    image: project2, // Replace with your project image URL or import
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An online platform for buying and accessing free and premium books, with features like secure login, encrypted passwords, and a course library.",
+    technologies: ["React", "Node.js", "Express", "MongoDB"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Samvad - Debate Platform",
+    image: project3, // Replace with your project image URL or import
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A debate platform that allows team-based debates with features such as assigning credibility markers to winners.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Chat Application",
+    image: project4, // Replace with your project image URL or import
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A real-time chat application enabling users to send instant messages with features like typing indicators and online/offline status updates.",
+    technologies: ["React", "Node.js", "WebSocket", "Express", "MongoDB"],
   },
 ];
-
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};
