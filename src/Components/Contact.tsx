@@ -16,7 +16,7 @@ const ContactForm = () => {
         const email = e.target.email.value.trim();
         const message = e.target.message.value.trim();
 
-        console.log(name,email,message)
+        
 
         // Input Validation
         if (!name || !email || !message) {
