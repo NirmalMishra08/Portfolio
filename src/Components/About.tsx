@@ -1,4 +1,4 @@
-import React from 'react'
+
 import aboutImg from "../react-portfolio-assets-kevin/assets/about.jpg"
 import { motion } from "motion/react"
 

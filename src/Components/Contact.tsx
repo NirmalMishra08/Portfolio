@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import emailjs from "emailjs-com";
 
 
@@ -10,7 +10,7 @@ const ContactForm = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState("");
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e:any) => {
         e.preventDefault();
         const name = e.target.name.value.trim();
         const email = e.target.email.value.trim();
@@ -94,7 +94,7 @@ const ContactForm = () => {
                     <textarea
                         name="message"
                         id="message"
-                        rows="4"
+                        
                         aria-label="Message"
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="Your Message"

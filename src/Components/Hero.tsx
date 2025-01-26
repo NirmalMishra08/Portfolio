@@ -1,7 +1,7 @@
-import React from 'react'
+
 import { motion } from "motion/react"
 
-const container = (delay) => (
+const container = (delay:any) => (
     {
         hidden: { x: -100, opacity: 0 },
         visible: {
