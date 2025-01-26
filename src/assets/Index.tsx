@@ -41,7 +41,7 @@ export const PROJECTS = [
     image: project1, // Replace with your project image URL or import
     description:
       "A dynamic social media platform featuring posting, commenting, real-time messaging, and secure user authentication.",
-    technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Socket.IO", "Cloudinary"],
+    technologies: ["React", "Tailwind CSS", "Node.js","MongoDB", "Socket.IO", "Cloudinary"],
   },
   {
     title: "BookNook - Book Selling Website",
