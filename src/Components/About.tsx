@@ -1,5 +1,5 @@
 
-import aboutImg from "../react-portfolio-assets-kevin/assets/about.jpg"
+import aboutImg from "./about.jpg"
 import { motion } from "motion/react"
 
 const About = () => {
